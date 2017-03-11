@@ -1,0 +1,256 @@
+Script started on Mon 22 Apr 2013 09:29:38 AM CDT
+johembr@cs8:~/Programming2/priqueue$ a.out
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+Error: Priority Queue is empty!
+
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+Error: Priority Queue is empty!
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+1
+What is your number's priority?
+5
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+1
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+2
+What is your number's priority?
+7
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+4
+What is your number's priority?
+3
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+7
+What is your number's priority?
+6
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+2
+7
+1
+4
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 2
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+7
+1
+4
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+3
+What is your number's priority?
+6
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+7
+3
+1
+4
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+5
+What is your number's priority?
+3
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+0
+What is your number's priority?
+3
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+7
+3
+1
+4
+5
+0
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+8
+8 is not a valid selection
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+7
+3
+1
+4
+5
+0
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 7
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 3
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 1
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 4
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 5
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+#1 the priority = 3
+#1 the data = 0
+This was the data that was fetched: 0
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+Error: Priority Queue is empty!
+
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+Error: Priority Queue is empty!
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+Error: Priority Queue is empty!
+
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+1
+What is your number's priority?
+2
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+1
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+4
+Goodbye!
+johembr@cs8:~/Programming2/priqueue$ exit
+exit
+
+Script done on Mon 22 Apr 2013 09:31:37 AM CDT

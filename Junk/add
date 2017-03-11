@@ -1,0 +1,9 @@
+#include <stdio.h>
+#include <math.h>
+
+int main {
+	float num1, num2, ans;
+
+		num1 + num2 = ans;
+		printf("%f + %f = %f", num1, num2, ans);
+}

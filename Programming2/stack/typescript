@@ -1,0 +1,200 @@
+Script started on Mon 08 Apr 2013 03:13:47 PM CDT
+johembr@cs8:~/stack$ a.out
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+4
+johembr@cs8:~/stack$ a.out
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+Error: Stack is empty
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+3
+Stack is empty
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a number to push 
+1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2 1
+Enter a number to push 
+2
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a number to push 
+3
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a number to push 
+4
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a number to push 
+5
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+3
+5
+4
+3
+2
+1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 5
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+3
+4
+3
+2
+1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a number to push 
+6
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+3
+6
+4
+3
+2
+1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 6
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+3
+4
+3
+2
+1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+8
+8 is not a valid selection
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 4
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 3
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 2
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 1
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+Error: Stack is empty
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+1
+Enter a number to push 
+10
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+2
+This is the number that was popped: 10
+Enter a selection 1 through 4
+1 Push
+2 Pop
+3 Print
+4 Quit
+4
+johembr@cs8:~/stack$ exit
+exit
+
+Script done on Mon 08 Apr 2013 03:15:31 PM CDT

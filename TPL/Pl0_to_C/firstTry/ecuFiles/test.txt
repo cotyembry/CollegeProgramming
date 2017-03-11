@@ -1,0 +1,6 @@
+here with: printf("%d", 5+3);
+(void) hello() {
+	printf("%d", 5+3);
+}
+here with: PROCEDURE
+Error! syntax error

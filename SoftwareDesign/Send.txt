@@ -1,0 +1,60 @@
+//Author:	John Coty Embry
+//Class:	Software Design
+//Date:		10/22/15
+//Pseudo Code for the sending functionality of the software
+
+//******* finish the receive email cases *******
+
+
+//create an instance of the User class so we can use the data in it in the code below
+
+******* may need to go back and put this into a class definition format because of inheritance *******
+//sendEmail() {
+	//get data from the fields in the email "form"
+	if(email address is filled out in form) {
+
+		if(email address is valid) { //do I even need this line of pseudo code?
+			//pass the following to the server to be sent: receipient(s),cc email, bcc email, subject, body, and attachments
+
+			//if sent without error this section of code is done
+		}
+	} 
+	else {
+		//print error popup and go back to composing the email (per the state chart diagram)
+	}
+
+
+//} //end of sendEmail()
+
+
+
+//receiveEmail() {
+
+	//when application is launched, this function is called to start this process
+
+	//take into account sync setting frequency
+	//depending on the sync frequency, scan for the emails on the set frequency
+
+
+	//if emails are set to always on then the default is to sync every 60 seconds
+
+	switch(sync frequency) {
+		//case always on:	while(user is logged in) {
+								if(new mail) {
+									if(not junk emails) {
+										//add emails to inbox folder
+									}
+									else {
+										//add emails to junk folder
+									}
+								}
+								
+								//sleep for 60 seconds (this gives the 60 second interval to refresh the emails being sent to the user)
+							}
+							break;
+		//case manual:		
+
+
+	}
+
+//} //end of receiveEmail()

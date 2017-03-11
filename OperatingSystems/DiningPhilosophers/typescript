@@ -1,0 +1,224 @@
+Script started on Mon Oct 26 17:36:12 2015
+[?1034hbash-3.2$ a.out
+bash: a.out: command not found
+bash-3.2$ ./a.out
+Philosopher 1 is thinking
+Philosopher 2 is thinking
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 2 is Hungry
+Philosopher 4 is Hungry
+Philosopher 3 is Hungry
+Philosopher 5 is Hungry
+Philosopher 2 takes chopstick 1 and 2
+Philosopher 4 takes chopstick 3 and 4
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 2 is Eating
+Philosopher 4 is Eating
+Philosopher 3 is thinking
+Philosopher 5 is thinking
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 2 is thinking
+Philosopher 4 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 3 is Hungry
+Philosopher 2 is Hungry
+Philosopher 5 is Hungry
+Philosopher 4 is Hungry
+Philosopher 3 takes chopstick 2 and 3
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 5 takes chopstick 4 and 5
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 3 is Eating
+Philosopher 2 is thinking
+Philosopher 5 is Eating
+Philosopher 4 is thinking
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 3 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 2 is Hungry
+Philosopher 3 is Hungry
+Philosopher 4 is Hungry
+Philosopher 5 is Hungry
+Philosopher 2 takes chopstick 1 and 2
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 4 takes chopstick 3 and 4
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 2 is Eating
+Philosopher 3 is thinking
+Philosopher 4 is Eating
+Philosopher 5 is thinking
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 2 is thinking
+Philosopher 4 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 3 is Hungry
+Philosopher 2 is Hungry
+Philosopher 5 is Hungry
+Philosopher 4 is Hungry
+Philosopher 3 takes chopstick 2 and 3
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 5 takes chopstick 4 and 5
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 3 is Eating
+Philosopher 2 is thinking
+Philosopher 5 is Eating
+Philosopher 4 is thinking
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 3 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 2 is Hungry
+Philosopher 3 is Hungry
+Philosopher 4 is Hungry
+Philosopher 5 is Hungry
+Philosopher 2 takes chopstick 1 and 2
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 4 takes chopstick 3 and 4
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 2 is Eating
+Philosopher 3 is thinking
+Philosopher 4 is Eating
+Philosopher 5 is thinking
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 2 is thinking
+Philosopher 4 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 3 is Hungry
+Philosopher 2 is Hungry
+Philosopher 5 is Hungry
+Philosopher 4 is Hungry
+Philosopher 3 takes chopstick 2 and 3
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 5 takes chopstick 4 and 5
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 3 is Eating
+Philosopher 2 is thinking
+Philosopher 5 is Eating
+Philosopher 4 is thinking
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 3 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 2 is Hungry
+Philosopher 3 is Hungry
+Philosopher 4 is Hungry
+Philosopher 5 is Hungry
+Philosopher 2 takes chopstick 1 and 2
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 4 takes chopstick 3 and 4
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 2 is Eating
+Philosopher 3 is thinking
+Philosopher 4 is Eating
+Philosopher 5 is thinking
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 2 is thinking
+Philosopher 4 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 3 is Hungry
+Philosopher 2 is Hungry
+Philosopher 5 is Hungry
+Philosopher 4 is Hungry
+Philosopher 3 takes chopstick 2 and 3
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 5 takes chopstick 4 and 5
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 3 is Eating
+Philosopher 2 is thinking
+Philosopher 5 is Eating
+Philosopher 4 is thinking
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 3 is thinking
+Philosopher 5 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 2 is Hungry
+Philosopher 3 is Hungry
+Philosopher 4 is Hungry
+Philosopher 5 is Hungry
+Philosopher 2 takes chopstick 1 and 2
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 4 takes chopstick 3 and 4
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 2 is Eating
+Philosopher 3 is thinking
+Philosopher 4 is Eating
+Philosopher 5 is thinking
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 2 is thinking
+Philosopher 4 is thinking
+Philosopher 1 is Hungry
+Philosopher 1 takes chopstick 5 and 1
+Philosopher 1 is Eating
+Philosopher 1 putting chopstick 5 and 1 down
+Philosopher 1 is thinking
+Philosopher 2 is Hungry
+Philosopher 5 is Hungry
+Philosopher 3 is Hungry
+Philosopher 4 is Hungry
+Philosopher 2 takes chopstick 1 and 2
+Philosopher 5 takes chopstick 4 and 5
+Philosopher 3 putting chopstick 2 and 3 down
+Philosopher 4 putting chopstick 3 and 4 down
+Philosopher 2 is Eating
+Philosopher 5 is Eating
+Philosopher 3 is thinking
+Philosopher 4 is thinking
+Philosopher 2 putting chopstick 1 and 2 down
+Philosopher 5 putting chopstick 4 and 5 down
+Philosopher 2 is thinking
+Philosopher 5 is thinking
+^C
+bash-3.2$ exit
+exit
+
+Script done on Mon Oct 26 17:36:30 2015

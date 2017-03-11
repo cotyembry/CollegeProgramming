@@ -1,0 +1,178 @@
+//Author:	John Coty Embry
+//Class:		Software Design
+//Date:		10/22/15
+//Pseudo Code for the Email class definition
+
+
+//******* include a parameter in the writeEmail method to specify if the user selected reply or compose email. This will mostly be useful when the class folder is sending a message to the writeEmail method when the user is replying *******
+//******* make it where the email class in in charge of reading an email
+
+
+class Email {
+	Private:
+		bool reply_or_forwardFromEmail_selected = false;
+		sender_email = "";
+		recipient_email = "";
+		subject = "";
+		body_of_email = "";
+		attachments = [];
+		cc_email = "";
+		bcc_email = "";
+		date_and_time = "";
+		email_status = 0;
+		location = "";
+
+	Public:
+
+		bool get_reply_or_forwardFromEmail_selected() {
+			//return the reply_or_forwardFromEmail_selected variable value
+		}
+
+		void set_reply_or_forwardFromEmail_selected() {
+			//set the reply_or_forwardFromEmail_selected variable value
+		}
+
+		void readEmail(EmailInstance) {
+			//TODO *******
+			//take into account if the user selects delete email to make the application flow go back to the correct context
+			//make sure to display successful message if deleted successfully
+			instance.email_status = 1;
+			server.changeEmailStatus(this);
+			//inflate user interface
+			//make sure the user interface populates all of the fields with the email instance that is passed in
+		}
+
+		//returns int to tell if the send was successful or unsuccessful: 1 if successful, 0 if unsuccessful, -1 if issues with the server sending the email (i.e. network issue) *** is this needed in pseudo code or too descriptive/too much into implementation phase? ***
+		int sendEmail(EmailInstance) {
+			if( validateEmail(check the receipient email address[es]) ) {
+
+				if(body has text OR there is a subject line OR there is an attachment) {
+					//create an instance of the server class
+					//pass the Email_Instance to the server
+					//Check return value to make sure it was sent correctly
+
+					if( network error while sending ) {
+						//display error message
+						//bring focus of the user interface back to the correct application context i.e. write email state
+					}
+
+					//if we got here the email sent correctly so,
+					//display message email sent successfully
+					//bring focus of the user interface back to the correct application context i.e. back to the application screen the user was previously on
+					//******* do I need to do more here to look into how to get the application to go to the correct screen? *******
+
+				}
+
+				//else there is nothing to send
+				else {
+					//display error message
+					//bring focus of the user interface back to the correct application context i.e. write email state
+				}
+			}
+
+			//else the email address is not valid
+			else {
+				//display error message
+				//bring focus of the user interface back to the correct application context
+			}
+
+
+		} //end sendEmail
+
+		bool validateEmail(receipient email addresses) {
+			//make sure the email address is valid
+			//return correct value
+		} //end validEmailAddress
+
+		void receiveEmail() {
+			//the server class is necessary for this routine as well so,
+			//create an instance of the server class
+
+			while(program is running) {
+				//get the value of the sync_frequency from the settings class
+				switch(go to case for the value of the sync_frequency) {
+					case always on: //always on case default is 60 seconds
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 60 seconds
+
+					case 15minutes:
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 15 minutes
+
+					case 30minutes:
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 30 minutes
+
+					case 60minutes: //1hour
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 60 minutes
+
+					case 120minutes: //2hours
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 120 minutes
+
+					case 180minutes: //3hours
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 180 minutes
+
+					case 240minutes: //4hours
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 240 minutes
+
+					case 300minutes: //5hours
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//sleep for 300 minutes
+
+					case 'daily':
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//every day at 12pm
+
+					case 'on weekends':
+						//use the server class instance method to pull the new emails from the server
+						//i.e. server.getEmail()
+						//every saturday and sunday at 9am
+
+				}
+			}
+		} //end receiveEmail
+
+		void forwardEmail(Email_Instance){
+			//the parameter below helps the application context go to the correct screen after the email is sent
+			writeEmail(pass boolean value true since the user will always be forwarding from a list of emails or from a specific email, Email_Instance);
+		}
+
+		void writeEmail(boolean value to specify if reply email or forward from viewing the individual email was selected) {
+			//set the reply_or_forwardFromEmail_selected instance variable value to that of this writeEmail parameter
+
+			if(UI is not inflated) {	
+				//inflate the user interface i.e. set up the fields to enter the email data and the buttons
+			}
+		}
+
+		//overloaded/overridden writeEmail() method to take in different number of parameters (this one is used for the forwading email case
+		)
+		void writeEmail(boolean value to specify if reply email or forward from viewing the individual email was selected, Email_Instance) {
+			//set the reply_or_forwardFromEmail_selected instance variable value to that of this writeEmail parameter
+
+			if(UI is not inflated) {	
+				//inflate the user interface i.e. set up the fields to enter the email data and the buttons
+				//use the Email_Instance to load in the subject
+				//use the Email_Instance to load in the receipient email
+				//use the Email_Instance to load in the from email
+				//use the Email_Instance to load in the cc email
+				//use the Email_Instance to load in the bcc email
+				//use the Email_Instance to load in the body
+				//use the Email_Instance to load in the attachement(s)
+			}
+		}
+
+}; //end Email class definition

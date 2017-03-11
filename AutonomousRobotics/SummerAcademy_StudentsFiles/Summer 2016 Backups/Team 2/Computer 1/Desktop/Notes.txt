@@ -1,0 +1,114 @@
+
+Every program we write has int main(void) {.....................................................}
+
+{} designates a block fo code
+
+; means end of line
+
+declare varibles first-
+int ticks (integer+ whole number)
+float d=1.2 (float has decimals)
+
+
+int ticks (x,y,z)- x,y,z are arguments
+Each function takes certain number of arguments in parantheses afterwards
+mtp
+
+mtp=move to position (port, speed, ticks)
+mav=move at velocity (port, speed) - moves continuosly
+
+*********************************************************************************************************************************
+
+As a programmer, you will read a lot of documentation
+
+Servo motors-
+on outer edges of bot brain board
+
+enable_servo(<servo_port#>) - gives power to specified port, default value 1024
+
+disable_servo(<servo_port#>) - saves power
+
+set_servo_position(<port#>,<position>) - moves servo in port to position, 0-2047 only meaningful, 200 may not work, expects integers
+^ set then enable
+
+
+/* ....... */ - turns block of code into comment
+
+depricated- means function no longer used
+
+
+*********************************************************************************************************************************
+
+ Common Functions
+
+display_printf(column, row, print arguments);
+column range= 0-41, 3 button range= 0-9, 6 button range= 0-7, dont need \n
+
+digital(port#)
+Retunrs 0 if plugged in switch is open, 1 if closed, good for sensors/limits
+
+analog_et(port#);
+Sensors, not needed for now
+
+msleep(millisecs);
+Pause for specified # of milliseconds
+
+mav(port#,velocity);
+Specified motor moves continously
+
+
+motor(port#,power level);
+Tunrs on specified motor port at power level specified, + is forward, - is back
+Varied according to load
+
+fd(port#);
+Turns on specified motor at max power for forward
+
+bk(port#);
+Turns on specified motor at max power for backward
+
+off(port#);
+Tunrs off specified motor port, has to be terminated
+
+ao();
+Tunrs off all motor ports
+
+freeze(port#);
+Freezes specified motor in place, instead of off, which lets it coast
+
+off(port#)
+Turns off specified motor port
+
+
+
+*********************************************************************************************************************************
+
+
+Sensors
+
+Light sensor, cbc reads value, returns diff numbers dependng on value
+Low values = light on, high values = light off
+cbc will beep, print message, and beep again
+
+analog10(port#);
+^Will return value of that sensor
+
+Small top hat sensor, short range reflectance sensor
+IR (infrared) sensor sends out IR light, emitter meausres how much IR is reflected back
+Used to detect lines (black/white give diff IR light absorbtion values)
+Works best when calibrated for black/whiite
+Can also be used as a short range distance sensor, for close up only
+Depends on surface texture,color, and distance to surface
+Lighter color <512, dark >512
+Short range
+
+
+ET sensor, tells distance
+Sends out modulated IR frequency, measures angle at which it returns to measure distance
+Less susceptible to error from changing light conditions
+Can make sure that object not get too close or far
+Medium range
+
+
+First 6 connectors are analog, next 6 are digital
+Want to use analog

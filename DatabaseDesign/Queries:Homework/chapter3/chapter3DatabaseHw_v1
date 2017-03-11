@@ -1,0 +1,81 @@
+14a.	select count(distinct report_number) 
+		from participated, accident 
+		where participated.report_number = accident.report_number 
+		and
+		participated.driver_id in (
+			select driver_id 
+			from person 
+			where name = 'John Smith'
+			);
+ 
+
+14b.	update participated
+		set damage_amount = 3000
+		where license = 'AABB2000' and report_number = 'AR2197';		
+
+
+15c.	select branch_name 
+		from branch 
+		where assets > some (
+			select min(assets) from branch where branch_city = 'Brooklyn'
+			);
+
+16b.	select employee_name 
+		from employee, works as employeeWorksAt 
+		where	employee.employee_name = works.employee_name 
+		and 
+		employee.city in (
+			select city 
+			from company 
+			where employeeWorksAt.company_name = company.company_name
+			);
+
+16c.	select employee_name 
+		from employee, manages as manager 
+		where manages.employee_name = employee.employee_name 
+		and (employee.city, employee.street) in (
+				select employee.city, employee.street from employee
+				where employee.employee_name = manager.manager_name
+				);
+
+
+16d.	select employee_name 
+		from works as higherPaidPerson 
+		where works.salary > all (select avg(salary) 
+										  from works as compare
+										  where higherPaidPerson.company_name = 
+										  compare.company_name
+										  );
+
+
+16e.	select company_name 
+		from (select company_name, sum(works.salary)
+			as companyPayrollExpense 
+			from company, works
+			where company.company_name = works.company_name
+			)
+
+		where companyPayrollExpense <= all (
+			select sum(salary) 
+			from works, company 
+			where company.company_name = works.company_name
+			);
+
+
+21b.	select name
+		from member as m, borrowed as b
+		where m.memb_no = b.memb_no
+		and b.isbn in (select isbn
+							from book
+							where publisher = 'McGraw-Hill'
+							);
+	
+
+21c.	select distinct name
+		from borrowed, member, book 
+		where member.memb_no = borrowed.memb_no 
+		and book.isbn = borrowed.isbn 
+		group by publisher, name
+		having count(*) > 5;
+
+

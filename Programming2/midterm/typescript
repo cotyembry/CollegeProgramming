@@ -1,0 +1,44 @@
+Script started on Thu 14 Mar 2013 06:53:27 PM CDT
+johembr@cs8:~/midterm$ a.out
+Input error!!!
+johembr@cs8:~/midterm$ a.out 7.5
+Input error!!!
+johembr@cs8:~/midterm$ 
+johembr@cs8:~/midterm$ a.out n 2
+-1 x 2.00 = -2.00
+johembr@cs8:~/midterm$ a.out 3 + 2 + 5
+Input error!!!
+johembr@cs8:~/midterm$ a.out 3 + 2
+3.00 + 2.00 = 5.00
+johembr@cs8:~/midterm$ a.out 5.7 - 3.2
+5.70 - 3.20 = 2.50
+johembr@cs8:~/midterm$ a.out 2 x 2.5
+2.00 x 2.50 = 5.00
+johembr@cs8:~/midterm$ a.out 2.4 x[K/ 2
+2.40 / 2.00 = 1.20
+johembr@cs8:~/midterm$ a.out 0 / 5.1
+0.00 / 5.10 = 0.00
+johembr@cs8:~/midterm$ a.out 2.7 / 0
+Error: cannot divide by zero!
+johembr@cs8:~/midterm$ a.ut[K[Kout n 4
+-1 x 4.00 = -4.00
+johembr@cs8:~/midterm$ a.out n -3.75
+-1 x -3.75 = 3.75
+johembr@cs8:~/midterm$ a.out 2 n 0
+Error: Invalid input for this form type!
+johembr@cs8:~/midterm$ a.out a 5
+The absolute value of |5.00| is 5.00
+johembr@cs8:~/midterm$  [Ka.out a -7.531
+The absolute value of |-7.53| is 7.53
+johembr@cs8:~/midterm$ a.out s -1
+Cannot take the square root of negative number!
+johembr@cs8:~/midterm$ a.out s 0
+Sqrt (0.00) = 0.00
+johembr@cs8:~/midterm$ a.out 3 7
+Error: Invalid input for this form type!
+johembr@cs8:~/midterm$ a.out - 3.5
+Error: Invalid input for this form type!
+johembr@cs8:~/midterm$ exit
+exit
+
+Script done on Thu 14 Mar 2013 06:56:07 PM CDT

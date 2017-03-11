@@ -1,0 +1,41 @@
+I revised the enqueue to be more efficient when copying elements from the temp queue to the private queue within the Queue class. (i.e. I removed the original for loop and just said s = t which set the pointer of s to the new location of where t was pointing)
+
+I also fixed the "warning" error I was recieving while compiling that came from the dequeue routine (the issue with the return value) by putting the check for when the queue is empty in the main program rather than in the dequeue routine function.
+Feedback
+4/27/15 9:22 AM
+OK, yes, it is in the following member function
+
+template <class TYPE>
+void Queue<TYPE>::enqueue(const TYPE x) {
+    if(!isFull()) {
+        s[head = (head+1)%max_len] = x; //this should increment appropriately
+    }
+    else {
+        int len_help = max_len; //this will be used for the copy
+        max_len = max_len*2;
+        TYPE* t = new TYPE[max_len]; //making a new temp array
+        int i = tail; //we want to make sure to start the new array correctly
+        int ti = 0; //this will be used for the new array incrementation
+        int occurrance = 0; //this will mark the ending of the array copy
+        
+        while(occurrance == 0) {
+            t[ti] = s[i]; //this will put the smaller array elements in the larger one
+            i = (i+1) % len_help; //this makes sure the increment the original array correctly
+            ti++;
+            if(i == tail) {
+                occurrance++;
+            }
+        }
+        head = ti; //ti falls right in place for the head of the array since it post incremented in the above while loop
+        t[head] = x;
+        number++;//this keeps track of how many are in the array
+        tail = 0;
+        s = t;
+        cout << "\nThe Queue was full\nReallocated " <<
+        max_len << " queue elements and copied queue to reallocated space.\n"<< endl;
+    }
+    number++; //this keeps track of how many numbers are in the queue
+    //it decrements in the dequeue
+}
+
+isn't it?  Good.  See my other comments too.

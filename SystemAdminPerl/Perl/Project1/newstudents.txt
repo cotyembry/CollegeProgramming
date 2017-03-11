@@ -1,0 +1,17 @@
+jacabac:x:8940:8941:Baca, Jacob A.+170431:/home/STUDENTS/nonmajors/jacabac:bin/bash
+sabnben:x:8941:8942:Benn, Sabra Nicole+215544:/home/STUDENTS/nonmajors/sabnben:bin/bash
+caslcan1:x:8942:8943:Cantrell, Cassidy Lee+218519:/home/STUDENTS/majors/caslcan1:bin/bash
+kevadam:x:8943:8944:Dampf, Kevin Allen+218933:/home/STUDENTS/majors/kevadam:bin/bash
+premdav:x:8944:8945:Davis, Preston M+217658:/home/STUDENTS/majors/premdav:bin/bash
+brapdus:x:8945:8946:Dusenberry, Brandon Paul+219828:/home/STUDENTS/nonmajors/brapdus:bin/bash
+josnham:x:8946:8947:Hammock, Josie Nicole+219860:/home/STUDENTS/nonmajors/josnham:bin/bash
+huyqho:x:8947:8948:Ho, Huy Quoc+207419:/home/STUDENTS/majors/huyqho:bin/bash
+amankra:x:8948:8949:Kramer, Amanda Noel+211816:/home/STUDENTS/majors/amankra:bin/bash
+matslow:x:8949:8950:Lowe, Matthew Scott+218184:/home/STUDENTS/nonmajors/matslow:bin/bash
+alebspr:x:8950:8951:Sprenger, Alexandr Brock+217176:/home/STUDENTS/nonmajors/alebspr:bin/bash
+whinsto:x:8951:8952:Stotler, Whitney Nicole+219379:/home/STUDENTS/majors/whinsto:bin/bash
+suntam:x:8952:8953:Tamang, Sunita+215495:/home/STUDENTS/nonmajors/suntam:bin/bash
+codweb:x:8953:8954:Webb, Cody+219223:/home/STUDENTS/nonmajors/codweb:bin/bash
+zacwmar:x:8954:8955:Martin, Zachary Wayne_Dale+205961:/home/STUDENTS/nonmajors/zacwmar:bin/bash
+taslmck:x:8955:8956:Mckaughan, Tasha Lynn+218855:/home/STUDENTS/majors/taslmck:bin/bash
+abcdef:x:8956:8957:Test, Coty Y+123456:/home/STUDENTS/nonmajors/abcdef:bin/bash

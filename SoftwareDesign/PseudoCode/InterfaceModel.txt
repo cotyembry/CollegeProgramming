@@ -1,0 +1,75 @@
+//Author:	John Coty Embry
+//Class:		Software Design
+//Date:		10/22/15
+//Pseudo Code for the Email class
+
+buttonSelected(button id that made the selection) {
+	switch(the button on the screen that is selected) {
+		case "send":
+			//create email instance with the values of all of the fields
+			//call the sendEmail method and pass the email instance
+
+			if(a network error occurs) {
+				//display error message
+				//call the writeEmail method to restart the process
+			}
+			//otherwise we are done here; continue with the flow
+
+		case "save":
+			//create email instance with the values of all of the fields
+			//create an instance of the server class
+			//pass the email instance to the server class with the save method of the server class
+			//display saved successful popup
+
+		case "cancel":
+			if(cancel button selected is not the move email selected cancel button) {
+				//discard email message
+			}
+			else {
+				//we are done with this flow, let the application be done with this switch statement and get to the control flow below it
+			}
+
+		case "home":
+			//create email instance with the values of all of the fields
+			//create an instance of the server class
+			//pass the email instance to the server class with the save method of the server class
+			//set reply_selected to false so that the application will go back to the home screen when done with this switch statement
+
+		case "back":
+			//create email instance with the values of all of the fields
+			//create an instance of the server class
+			//pass the email instance to the server class with the save method of the server class
+
+		case "attach":
+			//open built in file browser to let the user choose a file to attach
+
+		case "remove attachment":
+			//remove all attachments the user may of added
+
+		case "arrow_button":
+			//inflate and display over the current screen the MAIL LIST ITEM ITEM POPUP screen defined in the Interface file
+			//i.e. reply, forward, move buttons are added to screen
+
+		case "forward":
+			//display compose screen in interface file
+
+		case "reply":
+			//display compose screen in interface file
+
+		case "move":
+			//use server class to get the list of folders that exist
+			//display move email selected screen in interface file
+			switch(the button on the screen that is selected){
+				case
+			}
+	
+	}
+
+		//next is the exit control flow section that executes after the case statement is done
+		if(reply_selected private boolean value is true) {
+			//return application context back to the email list in the correct folder the user was previously in before selecting reply
+		}
+		else {
+			//return application context back to the home page
+		}
+}

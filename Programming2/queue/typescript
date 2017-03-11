@@ -1,0 +1,183 @@
+Script started on Sun 14 Apr 2013 06:14:04 PM CDT
+johembr@cs8:~/Programming2/queue$ a.out
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+4
+Goodbye!
+johembr@cs8:~/Programming2/queue$ a.out
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+Error: Queue is empty!
+
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+Error: Queue is empty!
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+1
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+2
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+3
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+4
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+5
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+1
+2
+3
+4
+5
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 1
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+3
+2
+3
+4
+5
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+1
+Enter a number to add
+6
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 2
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 3
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 4
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 5
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+This was the data that was fetched: 6
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+9
+9 is not a valid selection
+Enter a selection 1 through 4
+1 Add
+2 Fetch
+3 Print
+4 Quit
+2
+*** glibc detected *** a.out: double free or corruption (fasttop): 0x0000000001f92170 ***
+======= Backtrace: =========
+/lib/x86_64-linux-gnu/libc.so.6(+0x7eb96)[0x7f9557bb9b96]
+a.out[0x400997]
+a.out[0x4006f8]
+/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0xed)[0x7f9557b5c76d]
+a.out[0x400589]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 08:16 9822929                            /home/STUDENTS/majors/johembr/Programming2/queue/a.out
+00600000-00601000 r--p 00000000 08:16 9822929                            /home/STUDENTS/majors/johembr/Programming2/queue/a.out
+00601000-00602000 rw-p 00001000 08:16 9822929                            /home/STUDENTS/majors/johembr/Programming2/queue/a.out
+01f92000-01fb3000 rw-p 00000000 00:00 0                                  [heap]
+7f9557925000-7f955793a000 r-xp 00000000 08:03 2883697                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f955793a000-7f9557b39000 ---p 00015000 08:03 2883697                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f9557b39000-7f9557b3a000 r--p 00014000 08:03 2883697                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f9557b3a000-7f9557b3b000 rw-p 00015000 08:03 2883697                    /lib/x86_64-linux-gnu/libgcc_s.so.1
+7f9557b3b000-7f9557cf0000 r-xp 00000000 08:03 2889254                    /lib/x86_64-linux-gnu/libc-2.15.so
+7f9557cf0000-7f9557eef000 ---p 001b5000 08:03 2889254                    /lib/x86_64-linux-gnu/libc-2.15.so
+7f9557eef000-7f9557ef3000 r--p 001b4000 08:03 2889254                    /lib/x86_64-linux-gnu/libc-2.15.so
+7f9557ef3000-7f9557ef5000 rw-p 001b8000 08:03 2889254                    /lib/x86_64-linux-gnu/libc-2.15.so
+7f9557ef5000-7f9557efa000 rw-p 00000000 00:00 0 
+7f9557efa000-7f9557f1c000 r-xp 00000000 08:03 2890416                    /lib/x86_64-linux-gnu/ld-2.15.so
+7f95580f3000-7f95580f6000 rw-p 00000000 00:00 0 
+7f9558117000-7f955811c000 rw-p 00000000 00:00 0 
+7f955811c000-7f955811d000 r--p 00022000 08:03 2890416                    /lib/x86_64-linux-gnu/ld-2.15.so
+7f955811d000-7f955811f000 rw-p 00023000 08:03 2890416                    /lib/x86_64-linux-gnu/ld-2.15.so
+7fffd89c6000-7fffd89e7000 rw-p 00000000 00:00 0                          [stack]
+7fffd89ff000-7fffd8a00000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted (core dumped)
+johembr@cs8:~/Programming2/queue$ exit
+exit
+
+Script done on Sun 14 Apr 2013 06:16:08 PM CDT

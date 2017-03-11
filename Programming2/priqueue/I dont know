@@ -1,0 +1,5 @@
+#include <stdio.h>
+		// Assign to the middle of the priqueue
+		if ((newnode -> priority <= (*mypriqueue) -> front) && (nextnode -> priority > (*mypriqueue) -> back)) {
+			
+				

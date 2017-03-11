@@ -1,0 +1,202 @@
+Script started on Fri 01 Mar 2013 02:06:39 PM CST
+johembr@cs8:~/Programming2/math$ solvecomplex
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 1
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 3
+Enter imaginary part: 2
+8 + 6i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 2
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 3
+Enter imaginary part: 2
+2 + 2i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 3
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 3
+Enter imaginary part: 2
+7 + 2i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 3
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: -3
+Enter imaginary part: 2
+-23 + -22i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 7
+Make a selection. (To toggle menu on and off press 7 and then enter
+)7
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 8
+johembr@cs8:~/Programming2/math$ solvecomplex
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 8
+johembr@cs8:~/Programming2/math$ solvecomplex
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 5
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 5
+Enter imaginary part: 4
+0 + -4i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 5
+Enter real part: 3
+Enter imaginary part: -2
+Enter real part: 0
+Enter imaginary part: 0
+0 + 2i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 6
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 0
+Enter imaginary part: 0
+Error: division by 020 + 0i
+To toggle menu on and off press: 7 then enter
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 7
+Make a selection. (To toggle menu on and off press 7 and then enter
+)4
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 0
+Enter imaginary part: 0
+-5 + -4i
+To toggle menu on and off press: 7 then enter
+Make a selection. (To toggle menu on and off press 7 and then enter
+)0 4
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 0
+Enter imaginary part: 5
+-5 + -4i
+To toggle menu on and off press: 7 then enter
+Make a selection. (To toggle menu on and off press 7 and then enter
+)4
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 5
+Enter imaginary part: 0
+-5 + -4i
+To toggle menu on and off press: 7 then enter
+Make a selection. (To toggle menu on and off press 7 and then enter
+)4
+Enter real part: 0
+Enter imaginary part: 0
+Enter real part: 4
+Enter imaginary part: 4
+0 + 0i
+To toggle menu on and off press: 7 then enter
+Make a selection. (To toggle menu on and off press 7 and then enter
+)4
+Enter real part: 5
+Enter imaginary part: 4
+Enter real part: 3
+Enter imaginary part: 2
+-5 + -4i
+To toggle menu on and off press: 7 then enter
+Make a selection. (To toggle menu on and off press 7 and then enter
+)7
+1 Add
+2 Subtract
+3 Multiply
+4 Negate
+5 Conjugate
+6 Divide
+7 Toggle Menu
+8 Quit
+Enter a Selection: 8
+johembr@cs8:~/Programming2/math$ exit
+exit
+
+Script done on Fri 01 Mar 2013 02:12:41 PM CST

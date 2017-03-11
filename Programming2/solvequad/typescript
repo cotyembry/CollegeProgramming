@@ -1,0 +1,19 @@
+Script started on Fri 15 Feb 2013 09:44:35 AM CST
+johembr@cs8:~/main.c$ solvequad 0
+Enter 3 integers to start the program
+johembr@cs8:~/main.c$ solvequad 0 0
+Enter 3 integers to start the program
+johembr@cs8:~/main.c$ solvequad 0 0 0
+Error: Please enter a valid numbers that requires problem solving
+johembr@cs8:~/main.c$ solvequad 1 2 3
+-1.00 + 1.41i
+and
+-1.00 -1.41i
+johembr@cs8:~/main.c$ solvequad 1 2
+Enter 3 integers to start the program
+johembr@cs8:~/main.c$ solvequad -10 2 3
+The answers are: -0.46 and 0.66
+johembr@cs8:~/main.c$ exit
+exit
+
+Script done on Fri 15 Feb 2013 09:45:33 AM CST

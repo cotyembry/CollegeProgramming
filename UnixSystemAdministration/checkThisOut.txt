@@ -1,0 +1,12 @@
+Script started on Thu Oct  6 22:19:36 2016
+[?1034hbash-3.2$ sh greetings
+Hello, my name is Coty Embry.
+-n Today is: 
+Thu Oct  6 22:19:44 CDT 2016
+bash-3.2$ ./greetings
+Hello, my name is Coty Embry.
+Today is: Thu Oct  6 22:19:49 CDT 2016
+bash-3.2$ ei[Kxit
+exit
+
+Script done on Thu Oct  6 22:19:53 2016

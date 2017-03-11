@@ -1,0 +1,57 @@
+//Author:	John Coty Embry
+//Class:		Software Design
+//Date:		10/22/15
+//Pseudo Code for the Server class
+//note: ... at the end of a parameter is a varialbe length argument
+
+class Server {
+	Public:
+
+		bool removeAccount(emailAccountToRemove) {
+			//remove the account specified in the parameter
+		}
+
+		bool authenticateAccount(email_address, password) {
+			//check to make sure the email address and password are valid
+			//return result in the form of a boolean value
+		}
+
+		bool sendEmail(EmailInstance) {
+			//this must return a 1 for successfully sending the email or a 0 for a network issue while sending
+			//take email object and send the email
+		}
+
+		int categorizeEmail(EmailInstance..., location to move email to) {
+			if(the EmailInstance location is in the junk folder) {
+				//move EmailInstance(s) to the inbox folder
+			}
+			else {
+				//move to the location specified
+			}
+			//returns array of email instances
+		}
+
+		int getEmail() {
+			//Pull all emails from the server
+			//returns array of email instances
+			
+		}
+
+		bool saveEmail(EmailInstance) {
+			//save the email instance to the drafts email folder
+		}
+
+		bool createFolder(name of folder) {
+			//create a new folder
+		}
+
+		int deleteEmail(EmailInstance array) {
+			//Note: when this is deleted the server automatically moves the deleted emails to the deleted emails folder thats stored on the server
+			//return array of email instances
+		}
+
+		void changeEmailStatus(EmailInstance...) { //varialbe length argument
+			//update the already existing email instance(s) with the new parameter value
+		}
+
+}; //end server api

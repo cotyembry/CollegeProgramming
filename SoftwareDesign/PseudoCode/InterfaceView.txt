@@ -1,0 +1,45 @@
+//Author:	John Coty Embry
+//Class:		Software Design
+//Date:		10/22/15
+//Pseudo Code for the Interface class
+
+//when a button is selected call the buttonSelected() method from the Interface Model and pass the button id/type
+
+
+
+//MAIL LIST ITEM SCREEN
+//Create user interface
+//Add a back button
+//Add a home button
+//Add text box that has the subject of the message
+//Add text box that has the sender of the email
+//Add text box that has the receipient of the email
+//Add text box that has the attachments of the email
+//Add a text box where the user can type the body of the email
+//Add delete button
+//Add Arrow button (which gives the reply, forward, and move functionality)
+//Add compose email button
+
+//MAIL LIST ITEM ITEM POPUP
+//Inflate place holder over the current UI
+//add reply button to place holder
+//add forward button to place holder
+//add move button to place holder
+
+//COMPOSE SCREEN
+//create user interface
+//add a back buton
+//add a home button
+//add a save button
+//add a send button
+//add an attach button
+//remove attachment
+//add a text box that has a "subject" string in it that dissapears when the user starts typing in this field
+//add a text box that has a "to" string in it that dissapears when the user starts typing in this field
+//add a text box that has "cc" string in it that disappears when the user starts typing in this field
+//add a text box that has "bcc" string in it that disappears when the user starts typing in this field
+//add a text box where the user can type the body of the email
+
+//MOVE EMAIL SELECTED SCREEN
+//display list of folders available to move the email to
+//add cancel button

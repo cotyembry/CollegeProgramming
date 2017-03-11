@@ -1,0 +1,9 @@
+//Author:	John Coty Embry
+//Class:		Software Design
+//Date:		10/22/15
+//Pseudo Code for using the Email class definition
+
+emailClass {
+	//create an instance of the email class
+	//set program_is_running instance variable to true
+}

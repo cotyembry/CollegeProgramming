@@ -1,0 +1,87 @@
+14a.	select count(distinct report_number) 
+		from participated, accident 
+		where participated.report_number = accident.report_number 
+		and
+		participated.driver_id in (
+			select driver_id 
+			from person 
+			where name = 'John Smith'
+			);
+
+
+15c.	select branch_name 
+		from branch 
+		where assets > some (
+			select min(assets) from branch where branch_city = 'Brooklyn'
+			);
+
+
+//Make sure that the employeeWorksAt is available in the subquery scope
+
+16b.	select employee_name 
+		from employee, works as employeeWorksAt 
+		where	employee.employee_name = works.employee_name 
+		and 
+		employee.city in (
+			select city 
+			from company 
+			where employeeWorksAt.company_name = company.company_name
+			);
+
+
+
+//Make sure that the manager is available in the subquery scope
+
+16c.	select employee_name 
+		from employee, manages as manager 
+		where manages.employee_name = employee.employee_name 
+		and (employee.city, employee.street) in (
+				select employee.city, employee.street from employee
+				where employee.employee_name = manager.manager_name
+				);
+
+
+
+//Make sure that the higherPaidPerson is available in the subquery scope
+employees of their company.
+
+16d.	select employee_name 
+		from works as higherPaidPerson 
+		where works.salary > all (select avg(salary) 
+										  from works as compare
+										  where higherPaidPerson.company_name = 
+										  compare.company_name
+										  );
+
+
+
+Find the company that has the smallest payroll
+make sure I can do a sum of something in one table but not in the other
+regardless if we selected it in the from clause
+
+the subquery in the from clause gets the companies total payroll expense
+and then uses this value to compare against later on
+against the subquery that is created in the last where clause
+
+the subquery in the where clause does the same thing as the from clause
+
+the only difference is the one in the from clause also selects
+company_name so that the parent select clause can grab that for the
+final output to create the final relation
+
+16e.	select company_name 
+		from (select company_name, sum(works.salary)
+			as companyPayrollExpense 
+			from company, works
+			where company.company_name = works.company_name
+			)
+
+		where companyPayrollExpense <= all (
+			select sum(salary) 
+			from works, company 
+			where company.company_name = works.company_name
+			);
+
+21b.
+
+21c.

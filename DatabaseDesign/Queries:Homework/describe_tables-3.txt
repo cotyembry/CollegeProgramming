@@ -1,0 +1,86 @@
+Script started on Tue Jan 26 22:44:35 2016
+johcemb@cs8:~/DatabaseDesign$ mysql j -u oh  o johembr -p johembr
+Enter password: 
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 302
+Server version: 5.5.46-0ubuntu0.12.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show tables;
++-------------------+
+| Tables_in_johembr |
++-------------------+
+| accident          |
+| car               |
+| owns              |
+| participated      |
+| person            |
++-------------------+
+5 rows in set (0.00 sec)
+
+mysql> describe accident;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| report_number | int(11)     | NO   | PRI | 0       |       |
+| date          | char(10)    | YES  |     | NULL    |       |
+| location      | varchar(45) | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe car;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| license | varchar(8)  | NO   | PRI |         |       |
+| model   | varchar(25) | YES  |     | NULL    |       |
+| year    | int(11)     | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe owns;
++-----------+------------+------+-----+---------+-------+
+| Field     | Type       | Null | Key | Default | Extra |
++-----------+------------+------+-----+---------+-------+
+| driver_id | char(10)   | NO   | PRI |         |       |
+| license   | varchar(8) | NO   | PRI |         |       |
++-----------+------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> describe participated;
++---------------+---------------+------+-----+---------+-------+
+| Field         | Type          | Null | Key | Default | Extra |
++---------------+---------------+------+-----+---------+-------+
+| driver_id     | char(10)      | NO   | PRI |         |       |
+| car           | varchar(25)   | NO   | PRI |         |       |
+| report_number | int(11)       | NO   | PRI | 0       |       |
+| damage_amount | decimal(10,2) | YES  |     | NULL    |       |
++---------------+---------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> describe person;
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| driver_id | char(10)     | NO   | PRI |         |       |
+| name      | varchar(105) | YES  |     | NULL    |       |
+| address   | varchar(45)  | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> exit
+Bye
+johcemb@cs8:~/DatabaseDesign$ exit
+exit
+
+Script done on Tue Jan 26 22:45:20 2016

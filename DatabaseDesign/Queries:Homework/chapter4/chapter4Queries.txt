@@ -1,0 +1,32 @@
+4.12) 
+	part1:
+		select employee_name 
+		from employee natural left outer join manages
+		where manager_name is null;
+
+	part2:
+		select employee.employee_name
+		from employee
+		where employee.employee_name not in (
+			select manages.employee_name
+			from manages
+			);
+
+
+student(ID, name, dept_name, tot_cred)
+takes(ID, course_id, sec_id, semester, year, grade)
+section(course_id, sec_id, semester, year, building, room_no, time_slot_id)
+course(course_id, title, dept_name, credits)
+
+4.14
+	create view tot_credits(year, num_credits) as 
+		select year, sum(course.credits) as num_credits
+		from student natural join takes, course
+		where takes.course_id = course.course_id
+		group by takes.year;
+		
+
+
+
+
+

@@ -1,0 +1,6 @@
+cbcstu:x:8371:8372:Carley Test Student+cbc000:/home/STUDENTS/majors/cbcstu:/bin/bash
+mktstu:x:8372:8373:Tarver Test Student+mkt000:/home/STUDENTS/majors/mktstu:/bin/bash
+rferdstu:x:8373:8374:Ferdinand Test Student+rferd00:/home/STUDENTS/majors/rferdstu:/bin/bash
+jsstu:x:8374:8375:Santmyer Test Student+js000:/home/STUDENTS/majors/jsstu:/bin/bash
+vanlhol:x:8379:8380:Holland, Vanessa Leanne+123869:/home/STUDENTS/majors/vanlhol:/bin/bash
+mlamack:x:8685:8686:LaMack, Mary Alice+161003:/home/STUDENTS/majors/mlamack:/bin/bash

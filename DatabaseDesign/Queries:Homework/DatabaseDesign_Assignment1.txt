@@ -1,0 +1,161 @@
+John Coty Embry
+Date: 1/25/16
+Database Design
+
+
+2.) These are the statements I used to create the tables and the explanations for the data types chosen:
+
+driver_id is a char with 10 characters available because a drivers license (id) is always 10 characters in length
+I gave name a variable length of 105 because names can be length (35 for first name, 25 for middle name, and 45 for the last name)
+I gave the address a variable length of 45 since addresses can't always be the same length and that seems adequate to account for addresses
+And per the table to give, I lastly specify the primary key to be driver_id
+
+create table person(
+driver_id char(10),
+name varchar(105),
+address varchar(45),
+primary key(driver_id)
+);
+
+
+I chose license to be varchar 8 since on the license plate there are typically only 6 characters on a license plate, but when I searched online I noticed that in Virginia, for example, they allow 7.5 characters (which is 7 characters and a "-" which in my book is considered 8 characters). I would of chose char(6), but because of that exception to the length I just explained I decided against it.
+I chose model to be varchar(25) to give plenty of room for this string
+Of course year is going to be an integer
+And I assigned the primary key to be the license as indicated in the example given
+
+create table car(
+license varchar(8),
+model varchar(25),
+year int,
+primary key(license)
+);
+
+
+report_number is an int of course
+I chose date to be char(10) since I'm sticking to the date being in format "01/12/2016" (which is 10 characters long including the slashes and numbers)
+I gave the location a variable length of 45 since addresses can't always be the same length and that seems adequate to account for addresses
+
+create table accident(
+report_number int,
+date char(10),
+location varchar(45),
+primary key(report_number)
+);
+
+
+driver_id is a char with 10 characters available because a drivers license (id) is always 10 characters in length
+I chose license to be varchar 8 since on the license plate there are typically only 6 characters on a license plate, but when I searched online I noticed that in Virginia, for example, they allow 7.5 characters (which is 7 characters and a "-" which in my book is considered 8 characters). I would of chose char(6), but because of that exception to the length I just explained I decided against it.
+
+create table owns(
+driver_id char(10),
+license varchar(8),
+primary key(driver_id, license)
+);
+
+
+driver_id is a char with 10 characters available because a drivers license (id) is always 10 characters in length
+car is can be 25 characters long to give plenty of room for the name of the car
+report_number is an int
+I chose damage_amount to be at most the maximum amount that a car has ever been sold for ($38,115,000) and it is of type decimal which specifies first how many digits can be in the field and second the number of digits to the right of the decimal i.e. 5,2 says in total 5 digits with 2 decimal accuracy (123.45)
+
+create table participated(
+driver_id char(10),
+car varchar(25),
+report_number int,
+damage_amount decimal(10,2)
+primary key(driver_id, car, report_number)
+);
+
+
+
+###############
+
+And now for the description of the tables using the describe command. I used the script option to get the text because the \t is apparently disabled.
+
+
+Script started on Tue Jan 26 22:44:35 2016
+johcemb@cs8:~/DatabaseDesign$ mysql j -u oh  o johembr -p johembr
+Enter password: 
+Reading table information for completion of table and column names
+You can turn off this feature to get a quicker startup with -A
+
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 302
+Server version: 5.5.46-0ubuntu0.12.04.2 (Ubuntu)
+
+Copyright (c) 2000, 2015, Oracle and/or its affiliates. All rights reserved.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> show tables;
++-------------------+
+| Tables_in_johembr |
++-------------------+
+| accident          |
+| car               |
+| owns              |
+| participated      |
+| person            |
++-------------------+
+5 rows in set (0.00 sec)
+
+mysql> describe accident;
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| report_number | int(11)     | NO   | PRI | 0       |       |
+| date          | char(10)    | YES  |     | NULL    |       |
+| location      | varchar(45) | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe car;
++---------+-------------+------+-----+---------+-------+
+| Field   | Type        | Null | Key | Default | Extra |
++---------+-------------+------+-----+---------+-------+
+| license | varchar(8)  | NO   | PRI |         |       |
+| model   | varchar(25) | YES  |     | NULL    |       |
+| year    | int(11)     | YES  |     | NULL    |       |
++---------+-------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> describe owns;
++-----------+------------+------+-----+---------+-------+
+| Field     | Type       | Null | Key | Default | Extra |
++-----------+------------+------+-----+---------+-------+
+| driver_id | char(10)   | NO   | PRI |         |       |
+| license   | varchar(8) | NO   | PRI |         |       |
++-----------+------------+------+-----+---------+-------+
+2 rows in set (0.00 sec)
+
+mysql> describe participated;
++---------------+---------------+------+-----+---------+-------+
+| Field         | Type          | Null | Key | Default | Extra |
++---------------+---------------+------+-----+---------+-------+
+| driver_id     | char(10)      | NO   | PRI |         |       |
+| car           | varchar(25)   | NO   | PRI |         |       |
+| report_number | int(11)       | NO   | PRI | 0       |       |
+| damage_amount | decimal(10,2) | YES  |     | NULL    |       |
++---------------+---------------+------+-----+---------+-------+
+4 rows in set (0.00 sec)
+
+mysql> describe person;
++-----------+--------------+------+-----+---------+-------+
+| Field     | Type         | Null | Key | Default | Extra |
++-----------+--------------+------+-----+---------+-------+
+| driver_id | char(10)     | NO   | PRI |         |       |
+| name      | varchar(105) | YES  |     | NULL    |       |
+| address   | varchar(45)  | YES  |     | NULL    |       |
++-----------+--------------+------+-----+---------+-------+
+3 rows in set (0.00 sec)
+
+mysql> exit
+Bye
+johcemb@cs8:~/DatabaseDesign$ exit
+exit
+
+Script done on Tue Jan 26 22:45:20 2016

@@ -1,0 +1,1 @@
+amikhon:x:8787:8788:Honeycutt, Amie Kathryn+193169:/home/STUDENTS/nonmajors/amikhon:/bin/bash

@@ -1,0 +1,17 @@
+Script started on Mon 04 Feb 2013 12:49:22 PM CST
+johembr@cs8:~$ a.out -15 30 5
+-15	 3.873i
+-10	 3.162i
+-5	 2.236i
+0	 0.000
+5	 2.236
+10	 3.162
+15	 3.873
+20	 4.472
+25	 5.000
+30	 5.477
+
+johembr@cs8:~$ exit
+exit
+
+Script done on Mon 04 Feb 2013 12:49:54 PM CST

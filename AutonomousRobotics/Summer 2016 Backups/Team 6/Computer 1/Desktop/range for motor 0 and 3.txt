@@ -1,0 +1,9 @@
+port 0 (up and down )range 0 - 1300
+port 3 (left right  )range 400- 2000 
+
+ 0 star off on 1300 to 400  
+ 3 star off 1000 to 573 to 950
+ 
+
+
+

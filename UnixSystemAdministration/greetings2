@@ -1,0 +1,9 @@
+# CMPSC 4223
+# John Coty Embry
+# Example 2
+#
+# Script to display greetings
+# with today's date and time
+echo Hello, my name is Coty Embry.
+echo -n "My local time and date: "
+date +"The time is %r on the %eth day of the %B in the year %Y."

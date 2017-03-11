@@ -1,0 +1,23 @@
+Script started on Wed Feb 10 19:29:41 2016
+[?1034hbash-3.2$ flex calculator.l
+bash-3.2$ bison -d calculator.y
+bash-3.2$ gcc calculator.tab.c lex.yy.x[Kc
+bash-3.2$ ./a.out
+1024 * 10 * 4
+= 40960
+bash-3.2$ ./a.out
+3 + 3.3
+= 6.300000
+bash-3.2$ ./a.out
+(8+4) / 2.00
+= 6.000000
+bash-3.2$ ./a.out
+(24 - 12) % 5
+= 2
+bash-3.2$ ./a.out
+100500066
+= 100500064
+bash-3.2$ exit
+exit
+
+Script done on Wed Feb 10 19:32:26 2016

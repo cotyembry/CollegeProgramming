@@ -1,0 +1,6 @@
+select name, book.isbn, book.publisher 
+from borrowed, member, book 
+where member.memb_no = borrowed.memb_no 
+and book.isbn = borrowed.isbn 
+group by publisher, name
+having count(*) > 5;

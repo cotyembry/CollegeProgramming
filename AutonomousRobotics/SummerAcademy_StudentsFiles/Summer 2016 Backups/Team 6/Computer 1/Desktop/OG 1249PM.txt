@@ -1,0 +1,23 @@
+
+//driving a robot forward 
+int main (){
+//circumference = pi*d ,1100 ticks/revolution
+		int inches =36,ticks;
+//inches: distance to travel, d= diameter of wheel
+	float d=2.6;
+	ticks= (inches/(3.14159*d)*1100);
+//computes the distance from inches to ticks 
+		clear_motor_position_counter(0);
+		clear_motor_position_counter(3);
+		mtp(0,750,-ticks);
+		mtp(3,750,-ticks);
+		mtp(0,750,-ticks);
+		mtp(3,750,-ticks);		
+		mtp(0,750,-ticks);
+		mtp(3,750,-ticks);		
+		mtp(0,750,-ticks);
+		mtp(3,750,-ticks);
+		msleep(5000);
+		bmd(0);
+		bmd(3);
+}
